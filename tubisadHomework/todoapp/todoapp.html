@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todoapp.css">
+    <!--* Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Todo App</title>
+</head>
+
+<body>
+     <div id="todoAppContainer"> 
+        <div id="todoForm">
+            <div>
+                <label for="todoAdd"><b>New Todo:</b></label>
+            </div>
+            <div>
+                <input type="text">
+                <button type="submit"><b>Add</b></button>
+            </div>
+        </div>
+        <div id="todoListContainer">
+            <div id="editTodo">
+                <div>
+                    <label for="edit"><b>Edit:</b></label>
+                </div>
+                <div style="width: 75%;">
+                    <input type="text" placeholder="Mow the lawn">
+                </div>
+                <div>
+                    <button type="submit"><b>Save</b></button>
+                </div>
+            </div>
+            <div id="todoList">
+                <div class="todoListItem">
+                    <div class="todoListItem-Left">
+                        <input type="checkbox">
+                        <p>Vacuum the carpet</p>
+                    </div>
+                    <div class="todoListItem-Right">
+                        <i class="fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="todoListItem">
+                    <div class="todoListItem-Left">
+                        <input type="checkbox">
+                        <p>Sweep</p>
+                    </div>
+                    <div class="todoListItem-Right">
+                        <i class="fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+                <div class="todoListItem">
+                    <div class="todoListItem-Left">
+                        <input type="checkbox">
+                        <p>Wash the dishes</p>
+                    </div>
+                    <div class="todoListItem-Right">
+                        <i class="fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height:35vh; position: absolute; background-color: #f82fa8; top: 0; width: 100%; z-index: 0;">
+    </div>
+</body>
+
+</html>
