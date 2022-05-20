@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh !important;
+}
+#f-button {
+  background-color: #3c5ba3;
+}
+#registerContainer {
+  width: 400px !important;
+}
+#hrline hr {
+  border: 1px solid black;
+  width: 378px;
+  position: absolute;
+}
+#hrline span {
+    position: relative;
+    top: 5px;
+    left: 180px;
+    background-color: white;
+    padding: 0 10px;
+}
+#number{
+    width: 50%;
+}
