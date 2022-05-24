@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Header START  */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+}
+#container {
+  max-width: 1100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid #2a354c;
+  border-radius: 10px;
+}
+#navigationBar ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+#navigationBar ul li {
+  width: 100px;
+}
+#navigationBar ul a {
+  text-decoration: none;
+  color: #2a354c;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  margin-left: 20px;
+  transition: 0.8s all;
+  width: 100%;
+  text-align: center;
+}
+#navigationBar ul a:hover {
+  color: white;
+  background-color: #2a354c;
+  border: 1px solid white;
+}
+/** Header END */
+/** Main START */
+
+main {
+  max-width: 1100px;
+  width: 100%;
+  height: 400px;
+  background-color: #0fcc79;
+  margin-top: 100px;
+  margin: 20px auto;
+  box-shadow: 1px 5px 20px;
+  border-radius: 20px;
+  background: url("https://besthqwallpapers.com/Uploads/24-7-2020/138345/thumb2-digital-technology-background-with-zeros-and-ones-digital-blue-background-binary-code-background-digital-data-binary-code-texture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main h1 {
+  text-transform: capitalize;
+  transition: 1.5s all;
+  color: white;
+  text-align: center;
+}
+main h1:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+/** Main END */
+/** Section START  */
+
+section {
+  max-width: 1100px;
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  max-width: 350px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 10px 10px 10px 10px;
+}
+.card-header {
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2a354c;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 20px;
+}
+.card-img {
+  width: 100%;
+  height: 300px;
+}
+.card-img img {
+  height: 100%;
+  width: 100%;
+}
+.card-description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  color: #2a354c;
+  border: 1px solid #2a354c;
+  margin-top: 0;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 5px;
+}
+.card-footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #2a354c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-footer button {
+  padding: 9px;
+  width: 100%;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #2a354c;
+  transition: 0.5s all;
+  border: 1px solid #2a354c;
+}
+.card-footer button:hover {
+  background-color: #2a354c;
+  color: white;
+}
+
+/** Section END  */
+/** About START  */
+#about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#about h2 {
+  font-size: 40px;
+  color: white;
+}
+#aboutHeader {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  text-align: center;
+  margin: 100px 0px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#aboutBody {
+  max-width: 1500px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+#aboutImageVision {
+  width: 40%;
+  background-color: #2a354c;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXM2fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+}
+#aboutImageMission {
+  width: 40%;
+  background-color: #2a354c;
+  height: 100%;
+  background-image: url("https://wallpapermemory.com/uploads/813/code-background-hd-2560x1440-53050.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+}
+.aboutDescription {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  margin-left: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aboutDescription h3 {
+  font-size: 30px;
+  color: #0fcc79;
+}
+.aboutDescriptionContent {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #2a354c;
+}
+/** About END  */
+/** Contact START  */
+#contact {
+  max-width: 1100px;
+  width: 100%;
+  height: 300px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+#contactForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+#contactForm div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+#contactForm input {
+  width: 85%;
+  height: 40px;
+}
+#contactForm label {
+  width: 10%;
+  padding: 10px;
+  background-color: #2a354c;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#contactForm label i {
+  width: 16px;
+  color: white;
+}
+#contactTextArea {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#contactTextArea textarea {
+  width: 100%;
+  height: 73%;
+  resize: none;
+}
+#contactHeader {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  text-align: center;
+  margin: 100px 0px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#contactHeader h2 {
+  font-size: 40px;
+  color: white;
+}
+/** Contact END  */
+/** Footer START */
+footer {
+  width: 100%;
+  background-color: black;
+  margin-top: 100px;
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer li {
+  text-decoration: none;
+  color: white ;
+  padding: 5px;
+}
+footer ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+footer ul li:hover{
+  color: #0fcc79;
+}
+footer ul{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+}
+footer h4{
+  color: #0fcc79;
+}
+.footerBox{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+}
+#footerIcons{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#footerIcons i{
+  color: white;
+  font-size: 20px;
+}
+#footerIcons i:hover{
+  color: #0fcc79;
+}
+/** Footer END */
+
+/** RESPONSİVE START */
+/**  (max-width:478px) START*/
+@media screen and (max-width: 478px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #navigationBar ul a {
+    text-decoration: none;
+    color: #0fcc79;
+    background-color: white;
+    margin-left: 20px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+  }
+  #logo img {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .aboutDescription {
+    width: 100%;
+  }
+  footer{
+    flex-direction: column;
+  }
+}
+/**  (max-width:478px) END*/
+@media screen and (max-width: 700px) {
+
+  .aboutDescription {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+
+  .aboutDescription {
+    width:40%;
+    margin-top: 0;
+  }
+  #aboutImageMission {
+    display: none;
+  }
+  .aboutDescriptionHeader h3{
+    margin-top: 30px;
+    color: white;
+  }
+  #aboutImageVision{
+    display: none;
+  }
+  .aboutDescriptionContent span{
+    display: none;
+  }
+  .aboutDescription{
+    border: 1px solid #0fcc79;
+    border-radius: 20px;
+    background-color: #0fcc79;
+    width: 70%;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #contactForm input {
+    width: 100%;
+  }
+}
