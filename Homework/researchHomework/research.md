@@ -121,3 +121,19 @@ Ama ` box-sizing:"border-box"` sayesinde toplam genişlik 100px olarak kalmaktad
 ```
 
 ![Position-relative](./researchimage/display-none.png)
+
+
+## 7. Sweet Alert Nedir ?
+
+Projelerimizde kullandığımız uyarı pencerelerini daha güzel ve kullanışlı hale getirmemize olanak sağlayan açık kaynak kodlu bir eklentidir.
+
+```
+npm install sweetalert --save
+```
+
+paketi yükledikten sonra  ```import swal from 'sweetalert'; ``` komutu ile uygulamamıza entegre edebiliriz.
+
+Diğer bir yol olarak CDN linki kullanabiliriz.
+```
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+```
