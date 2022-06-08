@@ -13,4 +13,4 @@ function data(userData) {
     return result.join("");
 }
 
-console.log(data(x));
+alert(data(x));
