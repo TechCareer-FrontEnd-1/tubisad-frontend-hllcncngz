@@ -36,7 +36,7 @@
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <!-- navbar start -->
     <!-- Navbar start -->
-    <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark">
+    <nav id="home" class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark">
         <!-- Container wrapper -->
         <div class="container" id="navbar-example">
             <!-- Navbar brand -->
@@ -58,21 +58,22 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-2" href="#special_aboutme"> <i class="fa-solid fa-desktop"></i>About</a>
+                        <a class="nav-link me-2" href="#ability"> <i class="fa-solid fa-desktop"></i>Ability</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle" href="#blog" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i
+                                class="fa-solid fa-laptop-code mx-2"></i>Blog</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
+                            <a class="dropdown-item" href="#about">Action 1</a>
+                            <a class="dropdown-item" href="#about">Action 2</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#special_ability">Ability</a>
+                        <a class="nav-link" href="#special_ability">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#special_contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -169,8 +170,8 @@
                     </div>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-repeat"></i></span>
-                        <input type="password" class="form-control" placeholder="Password repeat" aria-label="Password-repeat"
-                            aria-describedby="basic-addon1">
+                        <input type="password" class="form-control" placeholder="Password repeat"
+                            aria-label="Password-repeat" aria-describedby="basic-addon1">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -201,46 +202,245 @@
 
     <!-- main-start -->
     <main>
-        <div id="card-container" class="w-100 row m-0 d-flex justify-content-center mt-3 mb-3">
-
-            <div class="card shadow col-lg-3 text-center py-4">
-                <div class="card-img">
-                    <i class="fa-solid fa-bridge"></i>
+        <div id="card-container" class="w-100 row d-flex flex-column flex-wrap justify-content-center mt-3 mb-3 m-0">
+            <div class="bg-dark text-white w-100">
+                <div>
+                    <h1 id="ability" class="text-center my-5">Ability</h1>
                 </div>
-                <div class="card-description line_clamp4 mt-2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus tenetur
-                        aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Odio, sequi?</p>
+                <div class="text-dark">
+                    <div class="d-flex align-items-center justify-content-center bg-dark p-5">
+                        <div class="card shadow col-lg-3 text-center py-0">
+                            <div class="card-img">
+                                <img class="w-100" src="https://picsum.photos/id/17/200/200" alt="">
+                            </div>
+                            <div class="card-description line_clamp4 mt-2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta
+                                    voluptatibus
+                                    tenetur
+                                    aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Odio, sequi?</p>
+                                <button class="btn btn-outline-primary"></button>
+                            </div>
+                        </div>
+                        <div class="card shadow col-lg-3 text-center py-0">
+                            <div class="card-img">
+                                <img class="w-100" src="https://picsum.photos/id/16/200/200" alt="">
+                            </div>
+                            <div class="card-description line_clamp4 mt-2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta
+                                    voluptatibus
+                                    tenetur
+                                    aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Odio, sequi?</p>
+                            </div>
+                        </div>
+                        <div class="card shadow col-lg-3 text-center py-0">
+                            <div class="card-img">
+                                <img class="w-100" src="https://picsum.photos/id/15/200/200" alt="">
+                            </div>
+                            <div class="card-description line_clamp4 mt-2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta
+                                    voluptatibus
+                                    tenetur
+                                    aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Odio, sequi?</p>
+                            </div>
+                        </div>
+                        <div class="card shadow col-lg-3 text-center py-0">
+                            <div class="card-img">
+                                <img class="w-100" src="https://picsum.photos/id/14/200/200" alt="">
+                            </div>
+                            <div class="card-description line_clamp4 mt-2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta
+                                    voluptatibus
+                                    tenetur
+                                    aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Odio, sequi?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section  id="parallax">
+                <div  class="row text-center">
+                    <h2>
+                        Parallax Area
+                    </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae officiis hic odit ea id dolor molestias doloremque itaque libero quibusdam, dolore sunt voluptas at ducimus quasi deserunt aut sequi maxime, repellat non, doloribus magnam nemo recusandae ut. Voluptate officia incidunt earum vitae corrupti optio saepe officiis fuga eos quibusdam nihil, fugit doloribus quasi, unde deserunt, mollitia eius qui repudiandae? Dolore impedit cupiditate obcaecati explicabo temporibus animi modi! Dolore dignissimos ab adipisci laudantium vitae dolorum quasi voluptate? Nisi sed dolorum repellat expedita? Eius minus a quae error praesentium velit, rem repellendus amet, consequatur obcaecati, suscipit placeat totam ex necessitatibus est modi!
+                    </p>
+                </div>
+            </section>
+
+
+
+            <div class="container w-75">
+                <h2 class="text-center my-5">Newspaper</h2>
+                <p style="column-count: 2;">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, aliquam saepe
+                    hic accusamus minima vero
+                    aspernatur quas alias voluptatibus quam veniam, asperiores voluptates itaque quod reiciendis
+                    obcaecati doloremque cumque eveniet repellat quaerat aliquid modi iste. Nam dolorum dicta, velit non
+                    recusandae consectetur autem deleniti ullam doloremque nemo voluptates quis, pariatur natus fuga
+                    tempore temporibus? Perferendis, voluptate. Nam, sed, nihil veritatis expedita non facilis itaque
+                    commodi deserunt ducimus dolorum harum nisi, quia fuga voluptates nesciunt delectus tempora rem eum
+                    perspiciatis voluptate dolore amet necessitatibus dignissimos odio. Dolorum sint cupiditate, quas
+                    voluptatem, est dolores repudiandae commodi tempora ea possimus reprehenderit enim ab veniam
+                    aspernatur voluptatum facere nihil cumque animi explicabo laudantium debitis consequatur id illum
+                    dolore? Ullam sint omnis corrupti delectus? Magnam illo ipsam repellendus reiciendis numquam iusto,
+                    debitis dolor culpa impedit obcaecati eius sunt! Quas tempore dignissimos blanditiis, perferendis
+                    autem porro eius repellat consequuntur delectus modi quod amet cupiditate aliquam explicabo dolore,
+                    optio et nulla! Excepturi veniam similique facilis ad! Magnam minus, inventore voluptatem, voluptate
+                    nesciunt asperiores odio eligendi laudantium est officia recusandae ipsa hic perspiciatis molestias
+                    cum nulla doloremque nihil magni non excepturi ipsum quas! Qui odio exercitationem fugiat error
+                    aliquid, assumenda aut debitis? Harum sit ratione sequi quo ea accusantium rem quae aliquam cum quas
+                    saepe pariatur beatae dolor inventore, tempore qui earum ducimus impedit tempora nulla! Consectetur,
+                    qui nemo nobis nulla velit odit doloremque magni consequatur expedita, ipsum nisi consequuntur
+                    dolorem laboriosam? Maxime placeat nulla recusandae quo cum rerum unde reprehenderit commodi,
+                    suscipit inventore natus enim earum est incidunt quisquam officiis iusto, corrupti sed, officia
+                    exercitationem? Iusto dolorum qui est perferendis, velit labore delectus cupiditate. Reiciendis
+                    incidunt autem aliquam deserunt temporibus, animi in qui dolorum quidem? Fuga beatae esse laudantium
+                    dolorem cupiditate ipsa eaque, repellendus fugiat, odio veniam neque, amet dolores libero.
+                    Doloremque, velit. Eius assumenda in repellendus non esse ipsam optio suscipit at sequi deleniti
+                    vitae enim alias, exercitationem voluptates officiis, maiores illo quaerat a, saepe velit quia unde
+                    animi! Illum eveniet id ut praesentium cum labore ratione explicabo, sequi quas, molestias velit,
+                    assumenda incidunt hic voluptatum suscipit. Molestiae, commodi est pariatur iusto repellat facere
+                    incidunt. Quam unde obcaecati hic molestiae voluptas repellendus totam, omnis optio sequi quod
+                    perferendis dolorem doloremque sed harum cum officia in quas quibusdam earum nemo et consequatur
+                    nobis rerum ut. Tempora atque unde et quasi nostrum nihil sint ratione, nisi voluptas magni suscipit
+                    est aliquid, corrupti impedit corporis cumque excepturi voluptatum quaerat adipisci. Iste blanditiis
+                    laudantium ipsam totam architecto, facilis itaque minus earum error et. Quod odio quos id sequi
+                    repudiandae, consectetur error laudantium voluptate nemo quisquam similique numquam harum
+                    accusantium incidunt quae sed omnis perferendis recusandae delectus, in illum distinctio. Deserunt
+                    vitae, ipsa impedit nostrum explicabo, eius dignissimos beatae id at consectetur quos dicta!
+                    Perferendis non ullam nostrum provident minus hic magni expedita voluptas odio fuga accusantium
+                    aliquam doloribus numquam ad, totam veritatis voluptate voluptatum eaque architecto facilis velit
+                    ratione. Officia consequuntur nam rem nobis tempora non, nemo assumenda? Voluptatibus quidem nemo
+                    amet eveniet! Esse dolorum molestias odio aliquam, dignissimos recusandae.</p>
+            </div>
+
+            <div id="bg-img" class="d-flex align-items-center justify-content-center flex-column"
+                style="height: 1000px;">
+
+                <div>
+                    <h2 id="blog" class="text-center my-5 container">Blog</h2>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row">
+
+                    </div>
+                    <div class="card shadow  bg-dark text-white col-lg-3 text-center py-0">
+                        <div class="card-img">
+                            <img class="w-100" src="https://picsum.photos/id/13/200/200" alt="">
+                        </div>
+                        <div class="card-description line_clamp4 mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus
+                                tenetur
+                                aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Odio, sequi?</p>
+                        </div>
+                    </div>
+                    <div class="card shadow col-lg-3 bg-dark text-white text-center py-0">
+                        <div class="card-img">
+                            <img class="w-100" src="https://picsum.photos/id/12/200/200" alt="">
+                        </div>
+                        <div class="card-description line_clamp4 mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus
+                                tenetur
+                                aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Odio, sequi?</p>
+                        </div>
+                    </div>
+                    <div class="card shadow col-lg-3 bg-dark text-white text-center py-0">
+                        <div class="card-img">
+                            <img class="w-100" src="https://picsum.photos/id/11/200/200" alt="">
+                        </div>
+                        <div class="card-description line_clamp4 mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus
+                                tenetur
+                                aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Odio, sequi?</p>
+                        </div>
+                    </div>
+                    <div class="card shadow col-lg-3 bg-dark text-white text-center py-0">
+                        <div class="card-img">
+                            <img class="w-100" src="https://picsum.photos/id/10/200/200" alt="">
+                        </div>
+                        <div class="card-description line_clamp4 mt-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus
+                                tenetur
+                                aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Odio, sequi?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="card shadow col-lg-3 text-center me-5 ms-5 mt-2 py-4">
-                <div class="card-img">
-                    <i class="fa-solid fa-archway"></i>
-                </div>
-                <div class="card-description line_clamp4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus tenetur
-                        aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Enim, quos!</p>
-                </div>
-            </div>
 
-            <div class="card shadow col-lg-3 text-center mt-2 py-4">
-                <div class="card-img">
-                    <i class="fa-solid fa-plane-departure"></i>
-                </div>
-                <div class="card-description line_clamp4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi soluta voluptatibus tenetur
-                        aliquid sapiente dolorum nisi veritatis nam dolor! Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit. Iure, facere?</p>
-                </div>
-            </div>
 
         </div>
     </main>
+    <section class="my-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About ME</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-center">About Me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum unde dignissimos fuga sit! Voluptate eligendi, ut atque quidem maxime ratione nam odio consectetur possimus minus soluta aliquam modi quasi. Nisi expedita voluptate asperiores, dolores laborum tempore provident dolorum hic, eligendi facilis autem totam recusandae laboriosam. Assumenda repellendus totam in nobis? Nulla explicabo voluptatem expedita enim a qui ut, inventore error recusandae magni saepe doloribus nesciunt illo ratione at velit quia minima ullam laborum rerum earum. Ducimus itaque modi atque, possimus dolores accusamus saepe culpa obcaecati commodi ea, esse aperiam? Architecto mollitia enim ad assumenda eius obcaecati quidem vero provident natus.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-pill" src="./coffee-g160fd41aa_1920.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- main-end -->
+    <h2 id="contact" class="text-center my-5 mb-5 container">Contact</h2>
+    <section id="form-panel" class="mb-5">
+        <div id="container" class="container">
+            <div class="row">
+                <div id="bg" class="col-md-6 p-0">
+                    <form class="mx-5 py-3">
+                        <div class="row">
+                            <div class="col-md-6 p-0"><input class="w-100" placeholder="name" type="text"></div>
+                            <div class="col-md-6 p-0"><input class="ms-2 w-100" placeholder="surname" type="text"></div>
+                        </div>
+                        <div class="row p-0">
+                            <div class="col-md-8 p-0 my-2">
+                                <input class="w-100" type="text" placeholder="E-mail">
+                            </div>
+                            <div class="col-md-4 p-0 my-2">
+                                <input class="ms-2 w-100" type="number" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <textarea class="mt-2" name="textarea" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="d-flex align-items-center mt-3 float-start">
+                            <button id="btn-bottom" class="btn btn-primary w-50 text-center mx-auto m-0 g-0">Send
+                                Message</button>
+                            <button id="btn-bottom"
+                                class="btn btn-danger w-25 text-center mx-auto m-0 g-0">Clear</button>
+                        </div>
 
-
+                    </form>
+                </div>
+                <div class="col-md-6 bg-info p-0">
+                    <iframe class="w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d96226.62152140758!2d31.147976522629687!3d41.089056660068984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1655915480658!5m2!1str!2str"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- footer-start -->
@@ -333,6 +533,8 @@
             &copy; ©2022 Copyright;
             <a href="https://www.hamitmizrak.com.tr" class="">Hamit Mızrak</a>
         </div>
+        <button id="backToTop" class="btn btn-danger rounded-circle"><a class="text-white" href="#"><i
+                    class="fa-solid fa-arrow-up"></i></a></button>
     </footer>
     <!-- footer-end -->
 
