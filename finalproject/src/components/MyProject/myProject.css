@@ -1,0 +1,183 @@
+#topSide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+#bottomSide {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.githubCountIcon i {
+  font-size: 30px;
+}
+.githubCountDescription {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.githubCountDescription span {
+  font-weight: 400;
+}
+.githubCountDark {
+  background: linear-gradient(rgb(69, 92, 209, 0.3), rgb(69, 92, 209, 0.6));
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  clip-path: polygon(0% 20%, 50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%);
+  transition: all 0.5s ease-in-out;
+  animation-name: fadeInTopLeft;
+  animation-duration: 2s;
+}
+.githubCountLight {
+  background: linear-gradient(rgb(69, 92, 209, 0.3), rgba(69, 200, 209, 0.6));
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  clip-path: polygon(0% 20%, 50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%);
+  transition: all 0.5s ease-in-out;
+  animation-name: fadeInTopLeft;
+  animation-duration: 2s;
+}
+.githubCountDark:hover {
+  transform: scale(1.2);
+}
+.githubCountLight:hover {
+  transform: scale(1.2);
+}
+
+#myProjectDark {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url("../../images/myproject/project.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* overlay START */
+.projectContainer {
+  position: relative;
+  height: 300px;
+  margin: 25px;
+  width: 28rem;
+  box-shadow: 15px 15px rgba(0, 0, 0, 0.974);
+  animation-name: fadeInTopRight;
+  animation-duration: 2s;
+}
+.imageOverlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.projectOverlay-1Dark {
+  position: absolute;
+  top: 0;
+  background-color: rgba(45, 85, 255, 0.7);
+  overflow: hidden;
+  width: 0;
+  height: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.projectOverlay-1Light {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(rgb(69, 92, 209, 0.3), rgba(69, 200, 209, 0.6));
+  overflow: hidden;
+  width: 0;
+  height: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.projectContainer:hover .projectOverlay-1Dark {
+  width: 100%;
+  height: 100%;
+}
+.projectContainer:hover .projectOverlay-1Light {
+  width: 100%;
+  height: 100%;
+}
+.projectOverlay-2Dark {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(45, 85, 255, 0.7);
+
+  overflow: hidden;
+  width: 0;
+  height: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.projectOverlay-2Light {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(rgb(69, 92, 209, 0.3), rgba(69, 200, 209, 0.6));
+  overflow: hidden;
+  width: 0;
+  height: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.projectContainer:hover .projectOverlay-2Dark {
+  width: 100%;
+  height: 100%;
+}
+.projectContainer:hover .projectOverlay-2Light {
+  width: 100%;
+  height: 100%;
+}
+.projectOverlay-3Dark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(45, 85, 255, 0.7);
+  overflow: hidden;
+  width: 0;
+  height: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.projectOverlay-3Light {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgb(69, 92, 209, 0.3), rgba(69, 200, 209, 0.6));
+  overflow: hidden;
+  width: 0;
+  height: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.projectContainer:hover .projectOverlay-3Dark {
+  width: 100%;
+  height: 100%;
+}
+.projectContainer:hover .projectOverlay-3Light {
+  width: 100%;
+  height: 100%;
+}
+.projectLink {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+}
+.projectLink h3 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* overlay END */
+
+@media screen and (max-width: 400px) {
+  .projectContainer {
+    height: 15.5rem!important ;
+    width: 15.5rem!important;
+  }
+}

@@ -1,0 +1,207 @@
+.openBtnDark {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  font-size: 1.5rem;
+  z-index: 2;
+  color: white;
+  transition: all 0.5s ease;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+}
+.openBtnDark:hover {
+  font-size: 1.7rem;
+}
+.openBtnLight {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  font-size: 1.5rem;
+  z-index: 2;
+  color: royalblue;
+  box-shadow: 5px 5px 10px black;
+  transition: all 0.5s ease;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+}
+.openBtnLight:hover {
+  font-size: 1.7rem;
+}
+/* DARK THEME */
+.overlay-dark {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  z-index: 3;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+  background:url('../../images/menu/menuDark.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* LIGHT THEME */
+.overlay-light {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  z-index: 3;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+  background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.3)),url('../../images/menu/menuLight.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 400;
+  /* -webkit-text-stroke: .8px black ; */
+
+}
+.closeBtnDark {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 32px;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.closeBtnDark:hover {
+  color: white;
+  transition: all 0.5s ease;
+  font-size: 37px;
+}
+.closeBtnLight {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 32px;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.closeBtnLight:hover {
+  color: black;
+  transition: all 0.5s ease;
+  font-size: 37px;
+}
+/* navbar start */
+#navbar-dark {
+  font-size: 2rem;
+  transition: all 1s ease;
+}
+#navbar-dark ul {
+  padding: 0 !important;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.7s s;
+}
+#navbar-dark ul li {
+  margin: 20px;
+  text-align: center;
+}
+#navbar-dark ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: all .3s ease-in-out;
+}
+#navbar-dark ul li a i {
+  margin-right: 20px;
+}
+
+#navbar-dark ul li a:hover {
+  font-size: 2.5rem;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px white;
+}
+/* NAVBAR LIGHT START*/
+#navbar-light {
+  font-size: 2rem;
+  transition: all 1s ease;
+}
+#navbar-light ul {
+  padding: 0 !important;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.7s s;
+}
+#navbar-light ul li {
+  margin: 20px;
+  text-align: center;
+}
+#navbar-light ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: all .3s ease-in-out;
+}
+#navbar-light ul li a i {
+  margin-right: 20px;
+}
+
+#navbar-light ul li a:hover {
+  font-size: 2.5rem;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px black;
+  background-color: black;
+}
+/* NAVBAR LIGHT END*/
+#changeThemeDark{
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  transition: all .5s ease-in-out;
+}
+#changeThemeDark:hover{
+  transform: scale(1.2);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px white;
+  border: none;
+}
+
+#changeThemeLight{
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-bottom: 2px solid black;
+  transition: all .5s ease-in-out;
+  font-weight: 600;
+}
+#changeThemeLight:hover{
+  transform: scale(1.2);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px black;
+  border: none;
+  background-color: black;
+}
+
+

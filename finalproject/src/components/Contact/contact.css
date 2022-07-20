@@ -1,0 +1,105 @@
+#contact .container {
+  display: flex;
+  flex: column;
+}
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url("../../images/contact/contactmeDark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contactDetails {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+#contactDetails p,
+h3,
+span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+#contactDetails i {
+  margin-right: 20px;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+#contactForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed", sans-serif;
+}
+#contactForm input {
+  height: 40px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid gray;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  padding-left: 20px;
+}
+#contactForm input:focus {
+  border-color: #0ba8c7;
+  outline: none;
+}
+#contactForm input:hover {
+  border-color: #0ba8c7;
+}
+#contactForm input::placeholder {
+  color: white;
+}
+#contactForm textarea {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid gray;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#contactForm textarea:focus {
+  border-color: #0ba8c7;
+  outline: none;
+}
+#contactForm textarea:hover {
+  border-color: #0ba8c7;
+}
+#contactForm textarea::placeholder {
+  color: white;
+}
+#contactForm button {
+  margin-top: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid gray;
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+#contactForm button:hover {
+  background: linear-gradient(to right, royalblue, black);
+  color: white;
+  font-size: 18px;
+  box-shadow: 5px 5px 50px #0ba5c4;
+}
+
+@media screen and (max-width: 992px) {
+  #contactDetails {
+    width: 100%;
+  }
+  #contactForm {
+    width: 100%;
+  }
+  #contact .container {
+    flex-direction: column;
+  }
+}

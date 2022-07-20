@@ -1,0 +1,16 @@
+#backToTop {
+  display: block;
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  font-size: 2rem;
+  /* color: linear-gradient(to top right,royalblue,black); */
+  color:royalblue;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 50%;
+}
+#backToTop:hover {
+  font-size: 2.2rem;
+}

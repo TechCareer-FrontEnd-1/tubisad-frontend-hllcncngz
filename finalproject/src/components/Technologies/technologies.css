@@ -1,0 +1,96 @@
+*{
+  font-family: "Roboto Condensed", sans-serif;
+}
+#technologiesDark {
+  background-color: rgb(231, 220, 220);
+}
+#technologiesLight{
+  background-color: white;
+}
+#card img {
+  width: 75px;
+  height: 75px;
+}
+.technologiesCardDark {
+  background-color: #04090F;
+  height: 200px;
+  width: 200px;
+  margin: 21px;
+  transform: rotate(45deg);
+  position: relative;
+  padding: 0;
+  box-shadow: 5px 5px 20px #2850ac;
+}
+.technologiesCardLight {
+  background-color: #324068;
+  height: 13rem;
+  width: 13rem;
+  margin: 21px;
+  transform: rotate(45deg);
+  position: relative;
+  padding: 0;
+  box-shadow: 5px 5px 20px black;
+}
+#card {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  transform: rotate(315deg);
+  transition: all 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: transparent;
+  font-size: 1.2rem;
+  background-color: transparent;
+
+}
+#card:hover {
+  transform: rotate(675deg);
+  color: white;
+  background-color: transperent;
+  box-shadow: 0px 5px 25px #2850ac;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+/* #technologies{
+  margin-bottom: 100px;
+} */
+#technologiesCardContainer {
+  padding-bottom: 110px !important;
+
+}
+#searchTechnologyInput{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+#searchContainerDark i{
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  background-color: #04090F;
+}
+#searchContainerLight i{
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  background-color: #04090F;
+}
+#searchTechnologyInput::placeholder{
+  color: white;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .5);
+}
+#searchContainerDark{
+  background-color: #132b61;
+  padding: 5px;
+  box-shadow: 0px 5px 25px #2850ac;
+}
+#searchContainerLight{
+  background-color: #324068;
+  padding: 5px;
+  box-shadow: 0px 5px 25px #2850ac;
+}

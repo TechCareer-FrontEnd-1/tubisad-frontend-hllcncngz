@@ -1,0 +1,245 @@
+#prevButton {
+  font-size: 40px;
+}
+#nextButton {
+  font-size: 40px;
+}
+#prevButton:hover {
+  color: white;
+}
+#nextButton:hover {
+  color: white;
+}
+.carousel-indicators button {
+  background-color: white !important;
+}
+#home {
+  height: 100vh;
+  position: relative;
+}
+/* Carousel First Page Start */
+#carouselFirstPage {
+  color: white;
+  text-shadow: 5px 5px 20px black;
+}
+#carouselFirstPage h1 {
+  font-size: 4rem;
+}
+#carouselFirstPage span {
+  color: black;
+  text-shadow: 5px 5px 30px rgb(77, 77, 77);
+  font-weight: bold;
+  animation: changeColor 2s infinite;
+  transition: all 0.5s ease-in-out;
+}
+@keyframes changeColor {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: transparent;
+  }
+}
+@media screen and (max-width: 300px) {
+  #carouselFirstPage h1 {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #carouselFirstPage h1 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 508px) {
+  #carouselFirstPage h1 {
+    font-size: 2.5rem !important;
+  }
+}
+@media screen and (max-width: 792px) {
+  #carouselFirstPage h1 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  #carouselFirstPage h1 {
+    font-size: 3rem !important;
+  }
+}
+/* Carousel First Page END */
+/* Carousel Second Page START */
+#hobiesContainer img {
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  background-color: red;
+}
+#carouselSecondPage {
+  height: 100vh;
+}
+/* Carousel Second Page END */
+
+#home .active {
+  background-color: royalblue !important;
+}
+
+#home #registerDarkPage button {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  background-color: red;
+}
+#home #registerLightPage button {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+#home #loginDarkPage button {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+#home #loginLightPage button {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+.validationButtonDark {
+  position: absolute;
+  top: 40px;
+  left: 9rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+.validationButtonDark:focus {
+  outline: none !important;
+  border: none !important;
+}
+.validationButtonLight {
+  position: absolute;
+  top: 40px;
+  left: 9rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.1rem;
+}
+.validationButtonLight:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+/* Validation Button Dark START */
+.validationButtonDark button {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  font-size: 1.1rem;
+}
+.validationButtonDark button:hover {
+  transform: scale(1.2);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px 10px #016066;
+  border: none;
+  background-color: #016066;
+}
+/* Validation Button Dark END */
+
+/* Validation Button Light START */
+
+.validationButtonLight button {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+.validationButtonLight button:hover {
+  transform: scale(1.2);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px black;
+  border: none;
+  background-color: #166cb5;
+}
+#exitButtonLight {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  z-index: 2;
+  display: none;
+}
+#exitButtonLight button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+  transition: all 0.5s ease-in-out;
+}
+#exitButtonLight button:hover {
+  transform: scale(1.2);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px black;
+  border: none;
+  background-color: #166cb5;
+}
+#exitButtonDark {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  display: none;
+  z-index: 2;
+}
+#exitButtonDark button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+  transition: all 0.5s ease-in-out;
+}
+#exitButtonDark button:hover {
+  transform: scale(1.2);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px 10px #016066;
+  border: none;
+  background-color: #016066;
+}
+
+#chessLink {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  border-bottom: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+#chessLink:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 20px white;
+}

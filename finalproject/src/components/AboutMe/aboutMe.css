@@ -1,0 +1,50 @@
+#aboutMeDark {
+  /* background-color: rgb(231, 220, 220); */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),url("../../images/aboutme/aboutmeDark.jpg") right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 19px;
+  font-weight: 400;
+}
+#questionImgContainerDark {
+  height: 500px;
+  overflow: hidden;
+}
+#questionImgContainerDark {
+  background: url("../../images/aboutme/aboutmeplanet.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  #questionImgContainerDark {
+    display: none !important;
+  }
+  #questionImgContainer2 {
+    display: none !important;
+  }
+}
+
+.pcss {
+  /* background: linear-gradient(to right,hsl(0,0%,30%) 0, rgb(255, 255, 255) 10%, rgb(255, 255, 255) 20%,rgb(78, 72, 72) 30%); */
+  background: linear-gradient(
+    to right,
+    rgb(76, 76, 76) 0,
+    white 10%,
+    white 20%,
+    rgb(255, 255, 255) 30%,
+    rgb(78, 78, 78) 34%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s infinite linear;
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 620px;
+  }
+}
